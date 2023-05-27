@@ -1,3 +1,5 @@
+import java.time.Month;
+import java.time.Year;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
@@ -63,10 +65,14 @@ import java.util.Map;
 	           Calendar cal = Calendar.getInstance();
 //		    <以下記述>
 	          
-	           int arrayDate = 2023-02-27;
-	           
-	           
-	           
+				int arrayDate = cal.get(Calendar.YEAR);cal.get(Calendar.MONTH);cal.get(Calendar.DATE);
+				
+				
+
+				
+
+
+
 //	      問⑧ 配列arrayDateをList型に置換しましょう。
 //	      ヒント：asListメソッドはプリミティブ型のデータ型のみ扱えます。
 //		    <以下記述>
