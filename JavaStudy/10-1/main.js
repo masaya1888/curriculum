@@ -14,14 +14,16 @@ for (let i = 0; i < num.length; i++) {
                     
 
 class car {
-    constructor() {
+    constructor(gass,num) {
         this.gass = gass;
         this.num = num;
     }    
+    getNumGas(gass,num){
+
+        console.log("ガソリンは"+this.gass+"です。"+"ナンバーは"+this.num+"です");
+    
+    }
+
 }
-
-function getNumGas(){
-
-    console.log("ガソリンは"+car.gass+"です。"+"ナンバーは"+car.num+"です");
-
-}
+let Car = new car(1234,5678);
+Car.getNumGas();
